@@ -2,6 +2,10 @@
 
 Tests pass when run with `dotnet test` but fail when run with `dotnet xunit`. Currently at xUnit `2.3.1`.
 
+# Status 2017-12-30
+
+The issue was fixed with xUnit `2.4.0-beta1-build3897`, [see the original issue](https://github.com/xunit/xunit/issues/1555#issuecomment-354532148).
+
 ## Output with xUnit
 
 `dotnet xunit`
