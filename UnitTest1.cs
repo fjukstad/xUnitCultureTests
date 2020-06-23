@@ -22,6 +22,14 @@ namespace xUnitCulture
             Assert.Equal(expected, actual);
         }
 
+        [Fact]
+        public void CheckNorwegianCulture()
+        {
+            var expected = "Hei";
+            var actual = GetResourceWithCulture("nb");
+            Assert.Equal(expected, actual);
+        }
+
         private string GetResourceWithCulture(string cultureName)
         {
             var culture = new CultureInfo(cultureName);
