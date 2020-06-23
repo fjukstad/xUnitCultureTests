@@ -55,7 +55,7 @@ Expected: Hei
 Actual:   Hello
             ↑ (pos 2)
   Stack Trace:
-     at xUnitCulture.UnitTest1.CheckNorwegianCulture() in /mnt/c/src/xUnitCultureTests/UnitTest1.cs:line 30
+     at xUnitCulture.UnitTest1.CheckNorwegianCulture() in /mnt/.../xUnitCultureTests/UnitTest1.cs:line 30
 
 Test Run Failed.
 Total tests: 3
