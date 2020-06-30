@@ -22,13 +22,17 @@ namespace xUnitCulture
             Assert.Equal(expected, actual);
         }
 
-        [Fact]
-        public void CheckNorwegianCulture()
+        [Theory]
+        [InlineData("nb")]
+        [InlineData("nb-NO")]
+        [InlineData("no")]
+        public void CheckNorwegianBokmalCulture(string norwegianCulture)
         {
             var expected = "Hei";
-            var actual = GetResourceWithCulture("nb");
+            var actual = GetResourceWithCulture(norwegianCulture);
             Assert.Equal(expected, actual);
         }
+
 
         private string GetResourceWithCulture(string cultureName)
         {
